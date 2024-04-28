@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,btn,input{
+  font-family: sans-serif;
+}
+
+body{
+  max-height: 100vh;
+  max-width: 100vw;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem; /* Set the width of the scrollbar */
+}
+
+/* Customize the thumb of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background-color: rgb(48, 59, 65); /* Set the background color of the thumb */
+  border-radius: 0.1rem; /* Set the border radius of the thumb */
+}
+
+.backgroundImage{
+  background-image: url('../public/Images/walpaper.webp');
+}
